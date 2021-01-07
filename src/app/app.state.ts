@@ -1,5 +1,5 @@
 import { Product } from "./models/product.model";
 
 export interface AppState {
-  readonly products: Product[];
+  readonly product: Product[];
 }

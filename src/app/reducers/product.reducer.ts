@@ -1,5 +1,6 @@
-import { Action } from '@ngrx/store';
 import { Product } from '../models/product.model';
+import { Action } from '@ngrx/store';
+
 export const ADD_PRODUCT = 'ADD_PRODUCT';
 export function addProductReducer(state: Product[] = [], action) {
   switch (action.type) {
